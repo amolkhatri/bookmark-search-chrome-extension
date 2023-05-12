@@ -32,10 +32,7 @@ To use the Bookmark Search Chrome Extension, follow these steps:
 
 The Bookmark Search Chrome Extension is licensed under the MIT License. See the LICENSE file for more details.
 
-## Credits
-
-The Bookmark Search Chrome Extension was created by [Your Name Here]. Special thanks to [Contributor 1] and [Contributor 2] for their contributions to the project.
 
 ## Support
 
-If you encounter any issues or have suggestions for improving the Bookmark Search Chrome Extension, please contact us at [Your Email Here]. We welcome feedback and are committed to making this extension as useful as possible for our users.
+If you encounter any issues or have suggestions for improving the Bookmark Search Chrome Extension, please contact us at randomdevforyou@gmail.com. We welcome feedback and are committed to making this extension as useful as possible for our users.
