@@ -40,9 +40,29 @@ function createBookmarks(bookmarks) {
 }
 
 chrome.bookmarks.getTree(function(bookmarkTreeNodes) {
-    const bookmarks = getAllBookmarks(bookmarkTreeNodes);
-    createBookmarks(bookmarks);
+  const bookmarks = getAllBookmarks(bookmarkTreeNodes);
+  createBookmarks(bookmarks);
+
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('keyup', (event) => {
+
+      const searchValue = event.target.value.toLowerCase();
+      const bookmarksEl = document.getElementById('bookmarks');
+      const bookmarks = bookmarksEl.getElementsByTagName('a');
+      for (let i = 0; i < bookmarks.length; i++) {
+          const bookmark = bookmarks[i];
+          const bookmarkTitle = bookmark.id.toLowerCase();
+          const href = bookmark.href.toLowerCase();
+          if (bookmarkTitle.indexOf(searchValue) > -1 || href.indexOf(searchValue) > -1) {
+              bookmark.parentElement.style.display = "";
+          } else {
+              bookmark.parentElement.style.display = "none";
+          }
+      }
+  });
+
 });
+
 
 document.getElementById("searchInput").focus();
 

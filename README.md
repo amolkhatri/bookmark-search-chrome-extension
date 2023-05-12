@@ -1,13 +1,13 @@
 # Bookmark Search Chrome Extension
 
-The Bookmark Search Chrome Extension is a simple tool that allows users to quickly search their bookmarks within the browser. It provides a convenient way to find and access saved websites without having to navigate through multiple folders and subfolders.
+The Bookmark Search Chrome Extension is a simple tool that allows users to quickly search your bookmarks within the browser. It provides a convenient way to find and access saved websites without having to navigate through multiple folders and subfolders.
 
 ## Features
 
 - Instantly search bookmarks from the Chrome browser toolbar.
 - Displays matching bookmarks in real-time as the user types in the search box.
 - Supports searching by bookmark title and URL.
-- Option to open the selected bookmark in a new tab or the current tab.
+- Opens selected bookmark in a new tab.
 
 ## Installation
 
@@ -26,7 +26,7 @@ To use the Bookmark Search Chrome Extension, follow these steps:
 1. Click the extension icon in the Chrome browser toolbar.
 2. Start typing the title or URL of the bookmark you want to search for.
 3. The extension will display matching bookmarks in real-time as you type.
-4. Click on the desired bookmark to open it in a new tab or the current tab.
+4. Click on the desired bookmark to open it in a new tab.
 
 ## License
 
